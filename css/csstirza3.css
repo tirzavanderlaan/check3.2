@@ -1,8 +1,11 @@
 @charset "utf-8";
 
+body { background-image: url("../check3.2/images/background3.jpg"); 
+}
+
 h1 {
     color: #3f51b5;
-    font-family: sans-serif;
+	font-family: 'Kavivanar', cursive;
     font-style: italic;
     font-size: xxx-large;
     font-weight: bold;
@@ -26,6 +29,8 @@ p {
     color: blue;
     display: block;
     margin: 80px;
+		margin-left: 20px;
+		margin-right: 20px;
     border: 20px;
     background-color: azure;
     padding: 10px;
@@ -39,7 +44,7 @@ p2 {
     display: block;
     margin: 60px;
     border: 20px;
-    background-color: blue;
+    background-image: url("images/background.jpg");
     padding: 40;
 }
 
@@ -49,3 +54,11 @@ img {
 	align-items: center;
 	
 }
+
+.box { 
+	background-image: url("../check3.2/images/background.jpg");
+	margin: 100px;
+	background-size: contain;
+}
+
+my id { background-image: url("../check3.2/images/background.jpg") } 
